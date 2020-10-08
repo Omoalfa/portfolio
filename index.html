@@ -4,18 +4,22 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Omoalfa </title>
     <link rel="stylesheet" href="styles.css">
+    <script src="https://kit.fontawesome.com/a2488c675b.js" crossorigin="anonymous"></script>
 </head>
 <body>
     <div>
         <header>
             <div id="wrapper">
-                <nav>
-                    <ul>
-                        <li><a href="">About me</a></li>
-                        <li><a href="">My works</a></li>
-                        <li><a href="">Get in touch</a></li>
-                    </ul>
-                </nav>
+                <div class="nav">
+                    <nav>
+                        <ul>
+                            <li><a href="">About me</a></li>
+                            <li><a href="">My works</a></li>
+                            <li><a href="">Get in touch</a></li>
+                        </ul>
+                    </nav>
+                </div>
+                
                 <div id="header-content">
                     <div>
                         <p class="content-items" id="greet">Hi there!</p>
@@ -23,17 +27,17 @@
                             My name is AbdulQuadri
                         </h3>
                         <h4 class="content-items" id="nick">
-                            <span id="alias">alias</span> <span id="myNick">Omoalfa</span>
+                            <span id="alias"><sup>alias</sup></span><span id="myNick">OMOALFA</span>
                         </h4>
                         <p class="content-items">
-                            I am do <span class="stack">Front End Develpment</span> using <span class="tech">ReactJS</span>
+                            Full stack JavaScript <br> Developer
                         </p>
                         <div class="logo content-items"Project Name>
-                            <i></i>
-                            <i></i>
-                            <i></i>
-                            <i></i>
-                            <i></i>
+                            <i class="fab fa-html5"></i>
+                            <i class="fab fa-css3"></i>
+                            <i class="fab fa-js"></i>
+                            <i class="fab fa-react"></i>
+                            <i class="fab fa-node"></i>
                         </div>
                     </div>
                 </div>
@@ -43,7 +47,7 @@
     </div>
     <section>
         <div class="myWorks">
-            <h1 id="head">Recently Released</h1>
+            <h1 class="head">Recently Released</h1>
             <div id="workWrapper">
                 <div class="works">
                     <a href="">
@@ -88,5 +92,64 @@
             </div>
         </div>
     </section>
+    <div class="about">
+        <h1 class="head">About</h1>
+        <div class="bio">
+            <img>
+            <div>
+                <h3 class="lable">Full Name</h3>
+                <p class="lable-value">Sanni AbdulQuadri Olayinka</p>
+                <h3 class="lable">Gender</h3>
+                <p class="lable-value">Male</p>
+                <h3 class="lable">Stack</h3>
+                <p class="lable-value">Full stack</p>
+                <h3 class="lable">Language</h3>
+                <p class="lable-value">JavaScript</p>
+            </div>
+        </div>
+        <div id="skills">
+            <ul>
+                <li>HTML <br> <span class="skill-max"><span class="skill-level html"></span></span></li>
+                <li>CSS <br> <span class="skill-max"><span class="skill-level css"></span></span></li>
+                <li>JAVASCRIPT <br> <span class="skill-max"><span class="skill-level js"></span></span></li>
+                <li>ReactJS <br> <span class="skill-max react"><span class="skill-level"></span></span></li>
+                <li>NodeJS <br> <span class="skill-max"><span class="skill-level node"></span></span></li>
+            </ul>
+        </div>
+    </div>
+    <div class="contact">
+        <h1 class="head">get in touch</h1>
+        <div id="sendRequest">
+            
+            <form>
+                <h3 class="requestType">Send a direct message</h3>
+                <label for="email">Email:</label>
+                <input name="email" type="email">
+                <label for="subject">Subject:</label>
+                <input name="subject" type="text">
+                <label for="yourNeed">Hire me for:</label> 
+                <textarea name="yourNeed" id="" cols="30" rows="10"></textarea>
+                <button type="submit">SEND</button>
+            </form>
+            <div>
+                <p>----- or -----</p>
+            </div>
+            <div>
+                <h3 class="requestType">Reach me on Social Media</h3>
+                <ul class="social">
+                    <li><a href=""><i class="fab fa-facebook"></i></a></li>
+                    <li><a href=""><i class="fab fa-twitter"></i></a></li>
+                    <li><a href=""><i class="fab fa-linkedin"></i></a></li>
+                    <li><a href=""><i class="fab fa-github"></i></a></li>
+                    <li><a href=""><i class="fab fa-google"></i></a></li>
+                </ul>
+            </div>
+        </div>
+        <footer>
+            <p>
+                All rights reserved &copy; 2020
+            </p>
+        </footer>
+    </div>
 </body>
 </html>
